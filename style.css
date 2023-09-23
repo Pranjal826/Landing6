@@ -1,0 +1,381 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 172, 158);
+    font-family: 'Gorditas', cursive;
+    font-weight: 100;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+
+}
+
+.nav {
+    width: 100%;
+    height: 50px;
+    /* background-color: #fff; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    color: white;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    justify-content: end;
+    gap: 30px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 10px;
+
+}
+
+.icons h4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: coral;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+
+
+}
+
+.nav1 {
+    position: absolute;
+    top: -100%;
+    transition: 0.5s ease-in all;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: crimson;
+    /* Set background color when .nav1 opens */
+}
+
+.nav1 h1 a {
+    color: white;
+    /* Set text color for anchor links when .nav1 opens */
+}
+
+.nav-cont {
+    display: flex;
+    width: 100%;
+
+}
+
+.nav1-cont {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 50%;
+    justify-content: center;
+    gap: 70px;
+}
+
+.nav1-cont a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 600;
+    margin: 0 10px;
+}
+
+.nav1-img {
+    width: 50%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.nav1-img>img {
+    width: 70%;
+    height: 90%;
+}
+
+.div1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+
+
+}
+
+.img {
+    background-image: url(premium_photo-1676654936496-67e5bc9e7235-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 70%;
+    height: 80%;
+    position: absolute;
+    top: 0%;
+    left: 30%;
+    z-index: 11;
+
+
+}
+
+.div1>h1 {
+
+    letter-spacing: 20px;
+
+    color: #fff;
+    font-size: 18vh;
+    font-weight: 600;
+    text-align: center;
+}
+
+.div1>p {
+    color: #fff;
+    font-size: 3vh;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+    width: 30%;
+    text-align: justify;
+    margin-left: 7vw;
+    line-height: 5vh;
+
+}
+
+.div1>button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.div1>button {
+    width: 20%;
+    height: 10%;
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-size: 2vh;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 7vw;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.div2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.div2>h2 {
+    color: #fff;
+    font-size: 5vh;
+    font-weight: 100;
+    text-align: center;
+
+    margin-left: 7vw;
+
+}
+
+.div2-img {
+    display: block;
+    width: 50%;
+    height: 540px;
+    background-image: url(https://media.istockphoto.com/id/1336131056/photo/pink-colour-bougainvillea-glabra-lesser-bougainvillea-or-paper-flowers-and-plant-with-white.webp?b=1&s=170667a&w=0&k=20&c=VKZwiQe2IftHmubw63LztI7ODtV27tKbS-ecET_kSaE=);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+
+
+}
+.div2-img>h3 {
+    position: relative;
+    left: -5%;
+    width: 100%;
+    font-size: 60px;
+    color: rgb(255, 213, 157);
+}
+.div2-img>.h3 {
+    position: relative;
+    left: -15%;
+    width: 100%;
+    font-size: 110px;
+    color: rgb(255, 213, 157);
+}
+
+.div2-img>h1 {
+    position: relative;
+    left: -5%;
+    width: 125%;
+    font-size: 100px;
+    letter-spacing: 5px;
+    color: rgb(238, 215, 186);
+}
+
+.div2-img>h2 {
+    height: 100px;
+    width: 100px;
+    border: 2px solid rgb(150, 111, 64);
+    border-radius: 50%;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(238, 215, 186);
+    text-align: center;
+    position: relative;
+    top: 0%;
+    left: -15%;
+
+}
+.div2-img {
+    opacity: 0;
+   
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.div3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.div3-one {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 20%;
+    align-items: center;
+}
+
+.div2-inner>h3 {
+    color: rgb(212, 27, 89);
+    font-size: 30px;
+}
+
+.div3-two {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div3-two>h1{
+    color: rgb(229, 221, 222);
+
+
+}
+.images-wrapper {
+    width: 70%; /* Set the desired width for the wrapper */
+    height: 450px; /* Set the desired height for the wrapper */
+    overflow-y: scroll; /* Enable vertical scrolling */
+    overflow-x: scroll; /* Hide horizontal scrollbar */
+}
+
+.images {
+    display: inline-block;
+    white-space: nowrap;
+    transform-origin: top left;
+}
+.images img {
+    margin-left: 20px;
+    margin-bottom: 20px; /* Add spacing between images */
+    transform-origin: top left;
+    transform: none; /* Initial transform for images */
+    transition: transform 0.3s ease; /* Add a transition for smooth animation */
+}
+.images-wrapper::-webkit-scrollbar {
+    display: none;
+}
+.div4{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(240, 232, 227);
+}
+.div4-left,.div4-right{
+    width: 50%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.div4-three>h1{
+    font-size: 120px;
+    color:crimson;
+
+}
+.div4-one>h4{
+    letter-spacing: 5px;
+
+
+}
+.div4-one>h1{
+    color: crimson;
+    font-size: 70px;
+}
+.div4-two>h4{
+    letter-spacing: 5px;
+   
+
+
+}
+.div4-three>input{
+    width: 50%;
+    text-align: center;
+    height: 30%;
+    border: none;
+    border-bottom: 1px solid brown;
+    outline: none;
+    background-color: transparent;
+    font-size: 2vh;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 7vw;
+    cursor: pointer;
+}
+.div4-right{
+    background-image: url(istockphoto-1336131056-1024x1024-removebg-preview.png);
+    background-size: cover;
+    background-position:left;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 100%;
+
+
+}
